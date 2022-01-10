@@ -8,7 +8,7 @@ Using pandas and Matplotlib libraries, we create a *WordCloud* and plots that sh
 
 Keep in mind that throughout this project we will be working with the hashtag *#Bitcoin*. Therefore, the results will vary if you decide to work with another hashtag. What will remain the same, is the process to query *any* hastag. So, what is cool about this script is that it can help you query any ongoing conversation given a particular topic you want to analyze.
 
-NOTE: To see full code visit: https://github.com/harg74/Mining_Twitter/blob/main/Mining_Twitter.ipynb and you can download it for your own queries.
+NOTE: To see full code visit: [Mining Twitter Jupyter Notebook](https://github.com/harg74/Mining_Twitter/blob/main/Mining_Twitter.ipynb) and you can download it for your own queries.
 
 ## Tools
 
@@ -65,6 +65,33 @@ We can iterate over this new JSON object to obtain the trending topics and its t
 ![image](https://user-images.githubusercontent.com/78564912/148825334-163b9814-fc22-4e8d-b7ef-4a1450cc4d32.png)
 ![image](https://user-images.githubusercontent.com/78564912/148825480-9b073a79-21e8-4627-abc8-7381505d22e0.png)
 
+To get all the statuses that contains the hastag #Bitcoin, use the below code. This script is the base for our subsequent plots and dataframes we will create.
+
+![image](https://user-images.githubusercontent.com/78564912/148828189-3c06d8b2-5101-4c30-b26f-3073fb353ada.png)
+
+We can make then extract some insights from this conversation. We can observe that the most common words used in the statuses/tweesta are the following:
+
+![image](https://user-images.githubusercontent.com/78564912/148828556-6d8e0450-07a2-415f-9200-f28f9664e67a.png)
+
+On the other hand, we can observe that most common Screen Names found in the tweets are: Blockworks_, Pentosh and BitcoinMagazine. Whcih we can infer that are the ones who are driving the conversation on this plataform.
+
+![image](https://user-images.githubusercontent.com/78564912/148828689-3230a1e6-4e6c-4244-8e26-fd138beee8cd.png)
+
+And the top three hastags that are being used are: Bitcoin, bitcoin and Ethereum 
+
+![image](https://user-images.githubusercontent.com/78564912/148828965-882409e5-a198-4f1d-b865-3a0ccf583abf.png)
+
+After analysis the emojis being used, we can infere that the tweets have a very optimistic emotional charge
+
+![image](https://user-images.githubusercontent.com/78564912/148829289-459b29f7-1809-4356-b07e-7939e072cedf.png)
+
+We can also create our WordCloud with all the words being used with the hastag #Bitcoin and we can observe that crypto, shiba, Ethereum, BSC, media are words that being typed in along with this hastag.
+
+![image](https://user-images.githubusercontent.com/78564912/148829986-5a0067fb-d522-46b2-b3e0-38e15cd52627.png)
+
+Finally we can create a shaped image with all the words being used. In this case used the twitter logo to reference our source from our queries.
+
+![image](https://user-images.githubusercontent.com/78564912/148830785-b85db6da-becb-444d-ae14-62e3d3303a4e.png)
 
 
 *Working on Updating README.md...*
