@@ -41,7 +41,7 @@ Once you have granted access to the Twitter API, you want to install the twitter
 
 **3) Import dependencies and Creating OAuth dance**
 
-You will need to install the following dependencies in order to be able to begin our query. Since you want your APIs keys nice and secure, it is important to create a ```config.py``` file in which you will need to store your these (access_token, access_token_secret, api_key, api_secret) and definene them on it, so you can then import the ```config.py```, just like in line 13 in the *Import dependencies* cell in ```Mining_Twitter.ipynb``` Jupyter notbook. See caption below. Again, this way your API keys will be secured in a separeted file from the one you will be working on.
+You will need to install the following dependencies in order to be able to begin our query. Since you want your APIs keys nice and secure, it is important to create a ```config.py``` file in which you will need to store them (access_token, access_token_secret, api_key, api_secret) and define them, so you can then import the ```config.py```, just like in line 13 in the *Import dependencies* cell in ```Mining_Twitter.ipynb``` Jupyter notbook. See caption below. Again, this way your API keys will be secured in a separeted file from the one you will be working on.
 
 ![image](https://user-images.githubusercontent.com/78564912/148799963-e10ba52e-aae3-4455-a082-930a7c457861.png)
 
