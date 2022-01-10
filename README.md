@@ -8,7 +8,7 @@ Using pandas and Matplotlib libraries, we create a *WordCloud* and plots that sh
 
 Keep in mind that throughout this project we will be working with the hashtag *#Bitcoin*. Therefore, the results will vary if you decide to work with another hashtag. What will remain the same, is the process to query *any* hastag. So, what is cool about this script is that it can help you query any ongoing conversation given a particular topic you want to analyze.
 
-NOTE: To see full code visit: [Mining Twitter Jupyter Notebook](https://github.com/harg74/Mining_Twitter/blob/main/Mining_Twitter.ipynb) and you can download it for your own queries.
+NOTE: To see full code visit my [Mining Twitter Jupyter Notebook](https://github.com/harg74/Mining_Twitter/blob/main/Mining_Twitter.ipynb) and you can download it for your own queries.
 
 ## Tools
 
@@ -93,5 +93,3 @@ Finally we can create a shaped image with all the words being used. In this case
 
 ![image](https://user-images.githubusercontent.com/78564912/148830785-b85db6da-becb-444d-ae14-62e3d3303a4e.png)
 
-
-*Working on Updating README.md...*
