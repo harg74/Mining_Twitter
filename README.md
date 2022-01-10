@@ -43,7 +43,26 @@ Once you have granted access to the Twitter API, you want to install the twitter
 
 You will need to install the following dependencies in order to be able to begin our query. Since you want your APIs keys nice and secure, it is important to create a ```config.py``` file in which you will need to store them (access_token, access_token_secret, api_key, api_secret) and define them, so you can then import the ```config.py```, just like in line 13 in the *Import dependencies* cell in ```Mining_Twitter.ipynb``` Jupyter notbook. See caption below. Again, this way your API keys will be secured in a separeted file from the one you will be working on.
 
+While making the OAuth dance it will return a similar object to the OAuth dance cell below, indicating that the connection to the Twitter API was succesful.
+
 ![image](https://user-images.githubusercontent.com/78564912/148799963-e10ba52e-aae3-4455-a082-930a7c457861.png)
+
+**4) Our queries begin**
+
+To obtain the Trending Topics from a particular location, Twitter works with something called *"where on earth identifier" or WOEID*. Which is an identifier for each country in the world. In this case we will work with the World ID which is "1" and the Mexico ID which is "23424900.
+
+![image](https://user-images.githubusercontent.com/78564912/148823273-e960ede3-4b5d-4821-89a9-e1bfad4af4d5.png)
+
+Once we have our trending topics, we will import json library and use it in our previous query. This will return a JSON object named trends, which can be used for further analysis.
+
+![image](https://user-images.githubusercontent.com/78564912/148824690-8662c9a1-629b-4153-8340-5d516f946f0f.png)
+
+We can iterate over this new JSON object to obtain the trending topics and its tweet volume and convert it into a DataFrame
+
+![image](https://user-images.githubusercontent.com/78564912/148825138-e9059fbe-5f00-44df-81a7-e47140793a14.png)
+![image](https://user-images.githubusercontent.com/78564912/148825334-163b9814-fc22-4e8d-b7ef-4a1450cc4d32.png)
+![image](https://user-images.githubusercontent.com/78564912/148825480-9b073a79-21e8-4627-abc8-7381505d22e0.png)
+
 
 
 *Working on Updating README.md...*
