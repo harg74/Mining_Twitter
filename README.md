@@ -8,6 +8,8 @@ Using pandas and Matplotlib libraries, we create a *WordCloud* and plots that sh
 
 Keep in mind that throughout this project we will be working with the hashtag *#Bitcoin*. Therefore, the results will vary if you decide to work with another hashtag. What will remain the same, is the process to query *any* hastag. So, what is cool about this script is that it can help you query any ongoing conversation given a particular topic you want to analyze.
 
+NOTE: To see full code visit: https://github.com/harg74/Mining_Twitter/blob/main/Mining_Twitter.ipynb and you can download it for your own queries.
+
 ## Tools
 
 - Twiter API version 2
